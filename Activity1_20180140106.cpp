@@ -29,3 +29,22 @@ string status3(double r, double n) {
         return "gagal";
     }
 }
+int main() {
+    double nilaiMath, nilaiBindo;
+
+
+    cout << "Masukkan nilai matematika : ";
+    cin >> nilaiMath;
+    cout << "Masukkan nilai bahasa indonesia : ";
+    cin >> nilaiBindo;
+
+    //rerata = (nilaiMath + nilaiBindo)/2;
+
+    //rata = rerata(nilaiMath, nilaiBindo);
+    //st = status(rerata(nilaiMath, nilaiBindo));
+
+    // if (rata >= 60){
+    //     status = "lulus";
+    // }else {
+    //      status = "gagal";
+    // }
