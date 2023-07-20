@@ -48,3 +48,9 @@ int main() {
     // }else {
     //      status = "gagal";
     // }
+    cout << "Nilai rata-rata nya : " << rerata(nilaiMath, nilaiBindo);
+    cout << "\nStatus kelulusannya : " << status(rerata(nilaiMath, nilaiBindo));
+    cout << "\nStatus kelulusannya : " << status2(rerata(nilaiMath, nilaiBindo), nilaiMath);
+    cout << "\nStatus kelulusannya : " << status3(rerata(nilaiMath, nilaiBindo), nilaiMath);
+
+}
