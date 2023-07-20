@@ -21,3 +21,11 @@ string status2(double r, double n) {
         return "gagal";
     }
 }
+string status3(double r, double n) {
+    if (r >= 60 || n >= 70) {
+        return "lulus";
+    }
+    else {
+        return "gagal";
+    }
+}
