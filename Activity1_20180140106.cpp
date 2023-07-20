@@ -13,3 +13,11 @@ string status(double r) {
         return "gagal";
     }
 }
+string status2(double r, double n) {
+    if (r >= 60 && n >= 70) {
+        return "lulus";
+    }
+    else {
+        return "gagal";
+    }
+}
